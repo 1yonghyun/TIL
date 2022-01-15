@@ -1,0 +1,16 @@
+- branch merge에서의 CONFLICT 상황
+  - a.txt를 만듦
+  - new branch를 만들고 이동합니다
+  - new branch에서 a.txt를 수정합니다
+  - master브랜치로 이동합니다
+  - a.txt를 다르게 수정합니다
+  - master 브랜치에서 new를 merge합니다!
+  - CONFLICT!
+- github에서의 CONFLICT 상황
+  - a컴퓨터, b컴퓨터, 깃허브가 있는 상황에서
+  - a컴퓨터가 a'으로 수정을 하여 깃허브에 push
+  - b컴퓨터가 a~로 수정하고 코밋
+  - b컴퓨터가 깃허브을 pull
+  - CONFLICT!
+- git reset --hard {코밋아이디}
+
