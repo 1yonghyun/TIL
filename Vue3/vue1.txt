@@ -1,0 +1,5 @@
+많이 사용하는 사용자화 필터
+capitalize 필터: 첫글자만 대문자
+uppercase 필터: 전부 대문자
+lowercase 필터: 전부 소문자
+currency 필터:  
