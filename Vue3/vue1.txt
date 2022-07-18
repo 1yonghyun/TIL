@@ -2,4 +2,33 @@
 capitalize 필터: 첫글자만 대문자
 uppercase 필터: 전부 대문자
 lowercase 필터: 전부 소문자
-currency 필터:  
+currency 필터:  통화 단위를 덧붙여 표시하는 필터
+json 필터: 화면에 출력할 수 있는 JSON 형태로 만들어 반환
+date 필터: Date객체를 변환하여 반환
+
+반복 렌더링
+
+디렉티브
+
+v-for디렉티브
+<반복 변수 이름> in <배열 이름>형태
+ex) <li v-for="item in items">{{ item.message }}</li>
+v-for로 객체에 접근하는 방법
+ex)
+<div id="app">
+	<ul>
+		<li v-for="value in object">{{ value }}</li>
+	</ul>
+</div>
+<script>
+new Vue({
+	el: '#app',
+	data: {
+		obeject: {
+			firstName: 'Joongmin',
+			lastName: 'Lee',
+			age: 39	
+		}
+	}
+});
+</script>
